@@ -1,0 +1,290 @@
+
+/* navbar */
+@media screen and (min-width: 280px){
+    .mainnavtopic{
+        display: none;
+    }
+    .header-main{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    .log-toggle{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        padding-top: px;
+    }
+    .duplicate{
+        width: 100px;
+        height: 50px;
+    }
+    .mainnav svg{
+        width: 84px;
+        height: 42px;
+    }
+    .header-test-drive{
+        width: 90vw;
+        height: 40px;
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 10px;
+    }
+.fa-solid{
+    margin: 21px 20px;
+        width: 150px;
+        height: 80px;
+}
+   .toggle-button svg{
+        margin-right: 20px;
+   }
+   .bodyimagepic{
+    height:180px;
+    width:101%;
+    padding: 0%;
+
+   }
+   .bodytext h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #727376;
+    margin: 20px 0px 10px;
+    padding: 8px 0px 0px;
+    font-size: 23px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+
+    
+   }
+   .bodytext p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  line-height: 1.5;
+   }
+   .discovermore{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    height: 40px;
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 5px;
+    
+    }
+  .ewb a{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer2{
+    display: flex;
+  
+  }
+  .footerimg{
+    width: 60px;
+    
+  }
+}
+    
+   
+  
+
+    
+/* navbar tab-view */
+
+@media screen and (min-width:768px){
+ .duplicate{
+    display: none;
+ }
+ 
+  .toggle-button{
+    display: flex;
+    position: relative;
+    padding: 0;
+   
+    
+  }
+  .log-toggle{
+    margin-top: 5.5vw;
+  }
+  .bodyimagepic{
+    height: 400px;
+    width:101%;
+    padding: 0%;
+
+   }
+   .bodytext p{
+    font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+   }
+   .body-text2{
+    display: flex;
+    flex-direction: row;
+
+   }
+   .discovermore{
+    display: flex;
+    width: 40vw;
+   }
+   .ewb{
+   
+    width: 40vw;
+    margin-top: 10px;
+   margin-left: 30px;
+
+   }
+  
+    .imagesdsp{
+        display: flex;
+        
+       }
+       .dspimg{
+        width: 50vw;
+       }
+       .imagesdsp1{
+        display: flex;
+       }
+    .imagesdsp2{
+        display: flex;
+
+    }  
+   .imagesdsp3{
+    display: flex;
+   }
+}
+
+.footer2{
+    display: flex;
+}
+
+/* navbar maxview */
+@media  screen and (min-width:1024px){
+    .mainnavtopic {
+       display: flex;
+       justify-content: end;
+       list-style: none;
+        min-width: 600px;
+        
+    }
+    .nav-items-with-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+    .model-1{
+      display: none;
+    }
+    .model-2{
+        margin-right: 40px;
+    }
+    .header-test-drive{
+        max-width: 200px;
+}
+.header-main{
+    display: flex;
+    flex-direction: row;
+}
+.toggle-button{
+    position:relative;
+    right:-850px;
+    top:10px;
+}
+.log-toggle{
+   margin-top: 0px;
+   max-width: 100px;
+}
+.bodyimagepic{
+    height: 500px;
+    width: 100.5%;
+    padding: 0%;
+
+   }
+   .imagesdsp{
+    display: flex;
+    
+   }
+   .dspimg{
+    width: 50vw;
+    height: 57vh;
+   }
+   .imagesdsp1{
+    display: flex;
+   }
+.imagesdsp2{
+    display: flex;
+
+}  
+.imagesdsp3{
+display: flex;
+}
+.footercontent{
+    display: flex;
+   width: 50%;
+}
+.footer1{
+    display: flex;
+    background-color:#e6eae9;
+
+}
+.footerlist{
+    display: flex;
+}
+.footerfinal{
+    display: flex;
+    
+
+}
+.footerlast{
+    display:flex
+}
+   
+
+}
+
+/* navbar windowview */
+
+@media screen and (min-width:1280px) {
+.toggle-button{
+display: none;
+
+  
+}
+.nav-items-with-toggle{
+    margin-left: 18%;
+
+}
+.header-test-drive{
+    margin-left:8vw ;
+}
+.model-1{
+    display: block;
+
+}
+
+.bodyimagepic{
+    height: 600px;
+    width: 99vw;
+    padding: 0%;
+}
+
+    .footermain{
+        display: flex;
+        gap: 30px;
+    }
+    .footerimg{
+        width: 40px;
+        margin-top: 4%;
+    }
+  .footerlist{
+    display: flex;
+  }
+}
+  
+
+
+
+    
+
+
+
